@@ -52,8 +52,8 @@ public class Player {
         
         //This loop checks if there are any aces in the hand
         for(Card card : hand) {
-            handValue += card.getCardValue();
-            if(card.getCardValue() == 11){
+            handValue += card.getValue().getRank();
+            if(card.getValue().getRank() == 11){
                 aces += 1;
             }
             
