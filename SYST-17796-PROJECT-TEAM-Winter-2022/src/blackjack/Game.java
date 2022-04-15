@@ -38,6 +38,11 @@ public class Game {
                 + dealer.getHand().get(0).toString() + " [?]\n");
         System.out.println("Your Hand: \n" + player.handToString());
         
+        if(player.getHandValue() == 21) {
+            System.out.println("Blackjack!");
+            hasWon(player, wager);
+        }
+        
         String hitOrStand = "";
         
         while(!hitOrStand.equals("stand")) {
