@@ -1,4 +1,4 @@
-package cardgame;
+package blackjack;
 
 /* This class inherits from the player class to add dealing funtions, such as
  *  the initial dealing of the cards as well as dealing more cards as the player

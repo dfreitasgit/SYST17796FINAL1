@@ -1,6 +1,6 @@
-package cardgame;
+package blackjack;
 
-import cardgame.Card.*;
+import blackjack.Card.*;
 import java.util.ArrayList;
 import java.util.Random;
 
