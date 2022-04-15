@@ -94,10 +94,10 @@ public class Game {
     public static void hasLost(Player player, int wager) {
         System.out.println(player.getName() + " Lost :(");
         try {
-            player.addScore(-(wager*2));
+            player.addScore(-(wager));
             if(player.getScore() <= 0)
                 throw new Exception();
-            System.out.println("You lost: " + wager*2);
+            System.out.println("You lost: " + wager);
             System.out.println("Your score is now " + player.getScore() + "\n");
             
         } catch (Exception ex) {
